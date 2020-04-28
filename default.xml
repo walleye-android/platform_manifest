@@ -70,6 +70,7 @@
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="github" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="github" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="github" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
   <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="github" />
   <project path="vendor/linaro" name="vendor_linaro" remote="github" />
 
