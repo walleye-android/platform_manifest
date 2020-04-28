@@ -31,6 +31,9 @@
   <project path="device/linaro/hikey" name="device_linaro_hikey" groups="device,hikey,pdk" remote="github" />
   <project path="external/Auditor" name="platform_external_Auditor" remote="github" />
   <project path="external/conscrypt" name="platform_external_conscrypt" groups="pdk" remote="github" />
+  <project path="external/hardened_malloc" name="hardened_malloc" remote="github" />
+  <project path="external/PdfViewer" name="platform_external_PdfViewer" remote="github" />
+  <project path="external/seedvault" name="platform_external_seedvault" remote="github" clone-depth="1" />
   <project path="external/vanadium" name="platform_external_vanadium" remote="github" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" />
@@ -48,6 +51,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="github" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" />
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/apps/QuickSearchBox" name="platform_packages_apps_QuickSearchBox" groups="pdk-fs" remote="github" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="github" />
   <project path="packages/apps/SetupWizard" name="platform_packages_apps_SetupWizard" remote="github" />
